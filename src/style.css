@@ -1,5 +1,10 @@
 h1 {
-  font-size: x-large;
-  color: rgb(22, 83, 83);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blueviolet;
+}
+.weather.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
