@@ -28,11 +28,14 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-transform: capitalize;
   color: rgb(75, 71, 71);
   font-size: 18px;
   font-weight: 100;
   line-height: 20px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .overview {
