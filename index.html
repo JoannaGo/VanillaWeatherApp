@@ -13,7 +13,9 @@
 <body>
     <br />
 <div class="container">
+    <div class="weather-app-wrapper">
     <div class="weather-app">
+        <div class="overview">
    <h1>
        Rome
    </h1> 
@@ -25,10 +27,19 @@
     Cloudy
 </li>
    </ul>
+</div>
    <div class="row">
 <div class="col-6">
-<img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy" />
-12°C | °F
+    <div class="cloudyfix weather-temperature">
+<img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" 
+alt="Cloudy" 
+class="float-left"
+/>
+<div class="float-left">
+<strong>12</strong><span class="units">°C | °F
+</span>
+</div>
+</div>
 </div>
 <div class="col-6">
     <ul>
@@ -44,10 +55,11 @@
     </ul>
     </div>
    </div>
+    </div>
 <small>
     <a href="https://github.com/JoannaGo/VanillaWeatherApp" target="_blank">Open-source code</a> by Joanna
 </small>
-</div>
+    </div>
 </div>
    <script src="src/app.js"></script>
 </body>
