@@ -17,9 +17,11 @@ body {
 
 h1 {
   color: rgb(126, 122, 122);
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 100;
   line-height: 30px;
+  font-family: "URW Palladio", serif;
+  font-weight: bolder;
 }
 
 ul {
@@ -80,4 +82,18 @@ li:first-letter {
 .weather-forecast-date {
   font-size: 16px;
   color: rgb(126, 122, 122);
+}
+
+.btn {
+  border-radius: 0px;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(102, 16, 69);
+  border: 0px solid rgb(102, 16, 69);
+  transition: all 100ms ease;
+  cursor: pointer;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  font-family: "URW Palladio", serif;
+  font-weight: bolder;
+  color: whitesmoke;
 }
